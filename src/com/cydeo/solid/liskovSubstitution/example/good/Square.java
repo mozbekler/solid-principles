@@ -1,6 +1,6 @@
 package com.cydeo.solid.liskovSubstitution.example.good;
 
-public class Square implements Shape {
+public class Square implements Shape{
 
     private int side;
 
@@ -10,7 +10,6 @@ public class Square implements Shape {
 
     @Override
     public int getArea() {
-        return side * side;
+        return side*side;
     }
-
 }

@@ -1,6 +1,6 @@
 package com.cydeo.solid.liskovSubstitution.example.good;
 
-public class Rectangle implements Shape {
+public class Rectangle implements Shape{
 
     private int height;
     private int width;
@@ -15,7 +15,6 @@ public class Rectangle implements Shape {
 
     @Override
     public int getArea() {
-        return this.height * this.width;
+        return this.height*this.width;
     }
-
 }

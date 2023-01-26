@@ -1,7 +1,6 @@
 package com.cydeo.solid.interfaceSegregation.example.good;
 
-public class Owl implements CanEat, CanWalk, CanFly {
-
+public class Owl implements CanEat,CanFly,CanWalk {
     @Override
     public void eat() {
         System.out.println("Eating.");
@@ -16,5 +15,4 @@ public class Owl implements CanEat, CanWalk, CanFly {
     public void walk() {
         System.out.println("Walking.");
     }
-
 }
